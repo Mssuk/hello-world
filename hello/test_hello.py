@@ -9,8 +9,8 @@ class TestHello(unittest.TestCase):
 
     def test_world(self):
         """sample test"""
-        self.assertEqual(hello('world'), 'hello world')
+        self.assertEqual(hello('world'), 'bye world')
 
     def test_world_unicode(self):
         """sample test with unicode"""
-        self.assertEqual(hello(u'world'), u'hello world')
+        self.assertEqual(hello(u'world'), u'bye world')
